@@ -1,0 +1,447 @@
+.App {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f6e1e1;
+}
+
+.AppbarHeader {
+  width: 100%;
+}
+
+.ToolBarHeader {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.dumbtick-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-register {
+  margin: 0 10px;
+}
+
+.footer-root {
+  padding: 5%;
+  margin: 0 auto;
+  background: #eb4d55;
+  color: white;
+}
+
+.text-icon-follows {
+  font-size: 15px;
+}
+
+.text-description1 {
+  text-align: justify;
+}
+
+.text-description2 {
+  text-align: justify;
+}
+
+.p-link {
+  margin-bottom: 0;
+}
+
+
+/* CARD TODAY CSS */
+.wrapper-card {
+  margin: 0 auto;
+  width: 80%;
+
+}
+
+.card-today {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+.card-today h2 {
+  margin-bottom: 30px;
+  color: #fa163f;
+}
+
+
+.card-content {
+  border: 1px solid #eee;
+  background-color: white;
+  width: 300px;
+  box-shadow: 0 2px 2px #ccc;
+  display: inline-block;
+}
+
+.card-image {
+  width: 300px
+}
+
+.card-title {
+  width: 300px;
+  padding: 10px;
+  line-height: 20px;
+  position: relative;
+}
+
+.date-card {
+  margin-top: -30px
+}
+
+.text-card-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -10px;
+
+}
+
+
+.card-title div {
+  display: inline-block;
+}
+
+.card-icon-favorite {
+  float: right;
+  padding-right: 5px;
+  line-height: 55px;
+  margin-top: -20px;
+  width: '20%'
+}
+
+.card-description {
+  text-align: justify;
+  padding-right: 20px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: -10px;
+}
+
+.price-tag {
+  position: absolute;
+  background-color: white;
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 195px;
+  cursor: pointer;
+}
+
+.price-tag p {
+  font-size: 13px;
+  line-height: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #fa163f;
+}
+
+/* CSS FOR CATEGORY */
+.container-category {
+  width: 90%;
+  /* margin-top: 50px; */
+  margin-left: 55px;
+  /* padding: px; */
+}
+
+.container-category h2 {
+  color: #fa163f;
+}
+
+/* .wrapper {
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.wrapper-button {
+  width: 100%;
+  display: flexbox;
+  /* margin: 0 auto; */
+  margin-left: '210px'
+}
+
+.button-category {
+  background-color: white;
+  border-radius: 3px;
+  height: 50px;
+  /* margin-right: 80px; */
+  width: 20%;
+  margin: 0 30px 0 30px;
+  cursor: pointer;
+  display: inline-block;
+
+}
+
+.button-category p {
+  text-align: center;
+  line-height: 15px;
+  color: #eb4d55;
+  font-weight: bold;
+
+}
+
+/* CSS FOR SEARCH */
+.sb-example-1 .search {
+  width: 90%;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.sb-example-1 .searchTerm {
+  margin: 0 auto;
+  width: 100%;
+  border: 3px solid #eb4d55;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.sb-example-1 .searchTerm:focus {
+  margin: 0 auto;
+  color: #eb4d55;
+}
+
+.sb-example-1 .searchButton {
+  width: 40px;
+  height: 50px;
+  border: 1px solid #eb4d55;
+  background: #eb4d55;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* ===== #CSS MODAL LOGIN====== */
+.modal-login {
+  /* margin: 0 auto; */
+  width: 330px;
+  height: 300px;
+
+}
+
+.modal-register {
+  /* margin: 0 auto; */
+  width: 330px;
+  height: 400px;
+
+}
+
+.modal-login h2 {
+  text-align: center;
+}
+
+.modal-register h2 {
+  text-align: center;
+}
+
+.form-input {
+  text-align: center;
+}
+
+.button-login {
+  flex: 1;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+/* ======CSS FOR DETAIL EVENT===== */
+.wrapper-event {
+  border: 2px solid rgb(165, 162, 162);
+  background-color: #f6e1e1;
+  width: 60%;
+  box-shadow: 0 2px 2px #ccc;
+  display: flex-block;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  height: 750px;
+}
+
+.gbr-content {
+  width: 100%;
+  /* height: 500px; */
+  border-radius: 5px;
+}
+
+.wrapper-title div {
+  display: inline;
+}
+
+.left-title-event span {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.right-title-event {
+  float: right;
+  color: #fa163f;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 13px;
+}
+
+.category-buy div {
+  display: inline;
+}
+
+.left-category-buy {
+  margin-left: 13px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.right-category-buy {
+  float: right;
+  margin-right: 13px;
+  line-height: 40px;
+}
+
+.total-buy {
+  margin: 20px
+}
+
+.wrapper-info div {
+  margin: 1px auto;
+  float: left;
+  margin-left: 20px;
+}
+
+.info-list-category {
+  display: inline;
+}
+
+.info-date {
+  display: list-item;
+}
+
+.description-info {
+  width: 60%;
+  margin: 0 auto;
+  /* margin-bottom: 50px; */
+}
+
+.description-info div {
+  display: inline-block;
+}
+
+/* =====page category css */
+.wrapper-category-page {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.wrapper-category-card {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.wrapper-category-image div {
+  /* display: inline-block; */
+
+  /* padding: 2% 4%; */
+}
+
+.wrapper-category-card div {
+  display: inline-block;
+  padding: 2% 4%;
+
+}
+
+.wrapper-category-page h2 {
+  margin: 50px 0
+}
+
+.sorting-by-date {
+  display: inline-block;
+
+}
+
+.sorting-by-date span {
+  display: inline-block;
+  margin-right: 30px;
+  /* line-height: 65px; */
+}
+
+.page-card-content {
+  border: 1px solid #eee;
+  background-color: white;
+  width: 300px;
+  box-shadow: 0 2px 2px #ccc;
+  display: inline-block;
+
+}
+
+.card-image-category-page {
+  width: 100%;
+  height: 130px;
+}
+
+
+/*  ====CSS FOR ADD EVENT====  */
+
+.wrapper-add-event {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.wrapper-add-event h3 {
+  margin: 50px 0;
+  color: #fa163f;
+}
+
+.wrapper-form-event {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.text-input-add {
+  width: 100%;
+  margin-top: 20px
+}
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
